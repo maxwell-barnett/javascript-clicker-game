@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="info-bar">
+        <p id="current-damage">Damage (Level 1): 1</p>
+        <p id="auto-damage">DPS (Level 1): 0</p>
+    </div>
+    <div id="game-area">
+        <h1 id="counter">0</h1>
+        <button id="enemy" onclick="attack()"></button>
+    </div>
+    <div id="upgrades-shop">
+        <button id="upgrade1" onclick="buyUpgrade1()">Upgrade Damage: 10</button>
+        <button id="upgrade2" onclick="buyUpgrade2()">Upgrade DPS: 1,000</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

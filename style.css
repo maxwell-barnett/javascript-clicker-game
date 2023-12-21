@@ -1,0 +1,51 @@
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: grey;
+}
+
+#info-bar {
+    height: 5vh;
+    display: flex;
+}
+
+#info-bar p {
+    margin: 10px;
+}
+
+#game-area {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+#enemy {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#enemy:active {
+    background-color: lightgray;
+}
+
+#upgrades-shop {
+    background-color: white;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#upgrades-shop button {
+    margin: 25px;
+    font-size: 1.5em;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+}
